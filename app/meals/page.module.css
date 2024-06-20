@@ -1,5 +1,5 @@
 .header {
-    gap: 3rem;
+    /* gap: 2rem; */
     margin: 3rem auto 5rem auto;
     width: 90%;
     max-width: 75rem;
@@ -19,12 +19,15 @@
   }
   
   .header p {
-    margin: 0;
+    margin-top: 0.5rem;
+  }
+
+  .cta {
+    margin-top: 0;
   }
   
   .cta a {
     display: inline-block;
-    margin-top: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     background: linear-gradient(90deg, #f9572a, #ff9b05);

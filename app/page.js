@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import ImageSlideshow from '@/components/images/image-slideshow';
-import classes from './page.module.css';
+import ImageSlideshow from "@/components/images/image-slideshow";
+import classes from "./page.module.css";
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
         </div>
         <div>
           <div className={classes.hero}>
-            <h1>NextLevel Food for NextLevel Foodies</h1>
-            <p>Taste & share food from all over the world.</p>
+            <h1>Food-Mania: A Feast for the Senses</h1>
+            <p>Indulge in culinary delights from around the globe.</p>
           </div>
           <div className={classes.cta}>
             <Link href="/community">Join the Community</Link>
@@ -23,28 +23,28 @@ export default function Home() {
       </header>
       <main>
         <section className={classes.section}>
-          <h2>How it works</h2>
+          <h2>How It Works</h2>
           <p>
-            NextLevel Food is a platform for foodies to share their favorite
-            recipes with the world. It&apos;s a place to discover new dishes, and to
-            connect with other food lovers.
+            Food-Mania is your ultimate platform to explore and share delicious
+            recipes. Discover new flavors and connect with fellow food
+            enthusiasts.
           </p>
           <p>
-            NextLevel Food is a place to discover new dishes, and to connect
-            with other food lovers.
+            Whether you’re a home cook or a gourmet chef, Food-Mania offers a
+            space to showcase your culinary skills and find inspiration.
           </p>
         </section>
 
         <section className={classes.section}>
-          <h2>Why NextLevel Food?</h2>
+          <h2>Why Choose Food-Mania?</h2>
           <p>
-            NextLevel Food is a platform for foodies to share their favorite
-            recipes with the world. It&apos;s a place to discover new dishes, and to
-            connect with other food lovers.
+            At Food-Mania, we celebrate the love for food and community. Our
+            platform is designed for those who are passionate about cooking and
+            tasting new dishes.
           </p>
           <p>
-            NextLevel Food is a place to discover new dishes, and to connect
-            with other food lovers.
+            Join us to explore a world of flavors, share your favorite recipes,
+            and connect with like-minded food lovers.
           </p>
         </section>
       </main>
